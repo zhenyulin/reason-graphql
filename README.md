@@ -14,5 +14,5 @@ npm run watch
 ```
 
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+# Credits
+[https://dev-blog.apollodata.com/exploring-reason-and-graphql-ff877df60d2a](https://dev-blog.apollodata.com/exploring-reason-and-graphql-ff877df60d2a)
