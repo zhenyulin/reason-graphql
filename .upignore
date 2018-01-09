@@ -1,1 +1,10 @@
-node_modules
+# dependencies
+/node_modules/
+
+# dotfiles
+.gitignore
+.merlin
+app.js
+bsconfig.json
+README.md
+tasks.json
