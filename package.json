@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "dev": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "serve": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [
     "BuckleScript"
@@ -13,6 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^14.5.0",
     "bs-platform": "^2.1.0"
   },
   "dependencies": {
@@ -20,7 +21,7 @@
     "body-parser": "^1.18.2",
     "bs-graphql-tools": "^0.3.1",
     "express": "^4.16.2",
-    "graphql": "^0.11.0",
+    "graphql": "^0.12.3",
     "graphql-tools": "^2.16.0"
   }
 }

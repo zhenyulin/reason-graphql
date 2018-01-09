@@ -4,6 +4,7 @@
 # build
 /lib/
 .cache
+server.js
 
 # dotfiles
 .DS_Store
