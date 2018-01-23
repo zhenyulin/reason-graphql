@@ -1,10 +1,16 @@
-# dependencies
-/node_modules/
+# .upignore extends .gitignore by default
+
+# src
+src/
+app.js
 
 # dotfiles
 .gitignore
-.merlin
-app.js
 bsconfig.json
+package-lock.json
 README.md
 tasks.json
+yarn.lock
+
+# deploy
+!server.js
