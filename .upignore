@@ -1,4 +1,5 @@
 # .upignore extends .gitignore by default
+node_modules
 
 # src
 src/

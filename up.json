@@ -1,6 +1,7 @@
 {
   "name": "reason-graphql",
   "hooks": {
+  	"prebuild": "npm run build",
     "build": "browserify --node app.js > server.js",
     "clean": "rm server.js"
   }
