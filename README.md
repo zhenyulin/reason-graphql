@@ -1,6 +1,6 @@
-# Basic Reason Template
+# reason-graphql
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+A quick experiment with functional programming language Reason and BuckleScript to build a simple serverless graphql api.
 
 # Build
 ```
@@ -12,10 +12,6 @@ npm run build
 ```
 npm run watch
 ```
-
-
-# Credits
-[https://dev-blog.apollodata.com/exploring-reason-and-graphql-ff877df60d2a](https://dev-blog.apollodata.com/exploring-reason-and-graphql-ff877df60d2a)
 
 # Demo
 [Demo](https://0mrxoafxkk.execute-api.eu-west-1.amazonaws.com/development/)
